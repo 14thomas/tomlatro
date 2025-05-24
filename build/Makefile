@@ -129,6 +129,30 @@ BalatroClone/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BalatroClone.dir/build.make CMakeFiles/BalatroClone.dir/build
 .PHONY : BalatroClone/fast
 
+src/PlayingCard.o: src/PlayingCard.cpp.o
+.PHONY : src/PlayingCard.o
+
+# target to build an object file
+src/PlayingCard.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BalatroClone.dir/build.make CMakeFiles/BalatroClone.dir/src/PlayingCard.cpp.o
+.PHONY : src/PlayingCard.cpp.o
+
+src/PlayingCard.i: src/PlayingCard.cpp.i
+.PHONY : src/PlayingCard.i
+
+# target to preprocess a source file
+src/PlayingCard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BalatroClone.dir/build.make CMakeFiles/BalatroClone.dir/src/PlayingCard.cpp.i
+.PHONY : src/PlayingCard.cpp.i
+
+src/PlayingCard.s: src/PlayingCard.cpp.s
+.PHONY : src/PlayingCard.s
+
+# target to generate assembly for a file
+src/PlayingCard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BalatroClone.dir/build.make CMakeFiles/BalatroClone.dir/src/PlayingCard.cpp.s
+.PHONY : src/PlayingCard.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BalatroClone"
+	@echo "... src/PlayingCard.o"
+	@echo "... src/PlayingCard.i"
+	@echo "... src/PlayingCard.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

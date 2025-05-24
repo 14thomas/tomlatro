@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/thomas/Documents/Projects/tomlatro/src/PlayingCard.cpp" "CMakeFiles/BalatroClone.dir/src/PlayingCard.cpp.o" "gcc" "CMakeFiles/BalatroClone.dir/src/PlayingCard.cpp.o.d"
   "/Users/thomas/Documents/Projects/tomlatro/src/main.cpp" "CMakeFiles/BalatroClone.dir/src/main.cpp.o" "gcc" "CMakeFiles/BalatroClone.dir/src/main.cpp.o.d"
   )
 

@@ -1,1 +1,1 @@
-/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/BalatroClone.dir/src/main.cpp.o -o BalatroClone
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/BalatroClone.dir/src/PlayingCard.cpp.o CMakeFiles/BalatroClone.dir/src/main.cpp.o -o BalatroClone

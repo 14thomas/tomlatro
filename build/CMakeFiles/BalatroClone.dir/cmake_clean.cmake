@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "BalatroClone"
   "BalatroClone.pdb"
+  "CMakeFiles/BalatroClone.dir/src/PlayingCard.cpp.o"
+  "CMakeFiles/BalatroClone.dir/src/PlayingCard.cpp.o.d"
   "CMakeFiles/BalatroClone.dir/src/main.cpp.o"
   "CMakeFiles/BalatroClone.dir/src/main.cpp.o.d"
 )
