@@ -1,32 +1,49 @@
-# Prerequisites
-*.d
+# ─── Build & CMake artifacts ───────────────────────────────────────────────
+/build/                 # out-of-source build dir
+/CMakeFiles/
+/cmake_install.cmake
+/CMakeCache.txt
+/Makefile
 
-# Compiled Object files
-*.slo
-*.lo
+# User-specific CMake settings
+*.cmake.user
+*.user
+
+# ─── IDE / Editor ───────────────────────────────────────────────────────────
+.vscode/                # VS Code workspace settings
+*~                      # backup files (e.g. emacs, vim)
+*.swp                   # vim swap files
+
+# ─── macOS ──────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ─── Compiled Object files ─────────────────────────────────────────────────
 *.o
 *.obj
+*.lo
+*.slo
 
-# Precompiled Headers
+# ─── Precompiled Headers ───────────────────────────────────────────────────
 *.gch
 *.pch
 
-# Compiled Dynamic libraries
+# ─── Libraries ──────────────────────────────────────────────────────────────
 *.so
 *.dylib
 *.dll
+*.a
+*.lib
+*.lai
+*.la
 
-# Fortran module files
+# ─── Fortran module files ───────────────────────────────────────────────────
 *.mod
 *.smod
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+# ─── Executables ────────────────────────────────────────────────────────────
 *.exe
 *.out
 *.app

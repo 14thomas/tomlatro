@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug BalatroClone",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/build/BalatroClone",
+        "args": [],
+        "cwd": "${workspaceFolder}",
+        "preLaunchTask": "CMake: build",
+        "MIMode": "lldb",
+        "externalConsole": false
+      }
+    ]
+  }
+  
